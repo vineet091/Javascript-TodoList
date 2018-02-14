@@ -1,0 +1,103 @@
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the list items */
+ul li {
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: #eee;
+    font-size: 18px;
+}
+
+/* Set all odd list items to a different color (zebra-stripes) */
+ul li:nth-child(odd) {
+    background: #f9f9f9;
+}
+
+/* Darker background-color on hover */
+ul li:hover {
+    background: #ddd;
+}
+
+/* When clicked on, add a background color and strike out text */
+ul li.done {
+    background: #888;
+    color: #fff;
+}
+
+ul li.done .todo-label {
+    text-decoration: line-through;
+}
+
+
+input[type="checkbox"] {
+    width: 20px;
+    vertical-align: middle;
+    margin-right: 20px;
+    height: 20px;
+}
+/* Style the close button */
+.btn-box {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+}
+
+/* Style the header */
+.header {
+    background-color: #f3f3f3;
+    padding: 20px 40px;
+    color: #000;
+    text-align: center;
+}
+
+.add-content {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.list-title {
+    background-color: darkseagreen;
+    padding: 20px 40px;
+    color: #000;
+    text-align: center;
+}
+/* Style the input */
+.add-text {
+    outline: none;
+    width: 300px;
+    padding: 10px;
+    font-size: 16px; 
+}
+
+.todo-edit {
+    outline: none;
+    width: 300px;
+    padding: 2px;
+    font-size: 14px;
+}
+/* Style the "Add" button */
+.btn-addtodo {
+    padding: 12px;
+    width: 100px;
+    border: none;
+    margin-left: 10px;
+    background: green;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-addtodo:hover {
+    background-color: darkgreen;
+}
+.hide {
+    display: none;
+}
+.show {
+    display: inline-block;
+}
